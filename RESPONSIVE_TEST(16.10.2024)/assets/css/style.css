@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title{
+    margin-top: 50px;
+    /* border: 1px solid green; */
+    text-align: center;
+}
+p{
+    font-size: 10px;
+}
+h1{
+font-size: 28px;
+}
+.plant-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    hr{
+        width: 50px;
+        margin: 10px;
+        border: 1px solid grey;
+    }
+}
+.plant-img{
+    width: 25px;
+    height: 25px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.item{
+    margin-top: 50px;
+    width: 200px;
+    height: 350px;
+}
+.straw{
+    img{
+        height: 250px;
+        width: 100%;
+        object-fit: cover;
+        background-color:antiquewhite;
+    }
+    p{
+       text-align: center;
+       margin-top: 10px;
+    }
+    p:hover{
+        color:green;
+    }
+
+}
+button{
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+}
+.buton{
+    display: flex;
+    justify-content: center;
+}
+@media (min-width:240px) and (max-width:350){
+    .item{
+        margin-top: 50px;
+        width: 100px;
+        height: 250px;
+    }
+    .title{
+        font-size: 14px;
+    }
+}
