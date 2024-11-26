@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.container{
+    margin:200px auto;
+    width: 800px;
+    height: 500px;
+    background-color:darkgrey;
+    display: flex;
+}
+.left{
+    border: 1px solid green;
+    height: 100%;
+    width: 50%;
+}
+.right{
+    border: 1px solid green;
+    height: 100%;
+    width: 50%;
+}
+.item{
+    text-align: center;
+}
