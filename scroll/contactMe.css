@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.form-section {
+    flex: 1;
+    margin-right: 50px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #ff9800;
+}
+
+h2 {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: #333333;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: none;
+    height: 150px;
+}
+
+button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn {
+    background-color: #ff9800;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.submit-btn:hover {
+    background-color: #e57c00;
+}
+
+.info-section {
+    flex: 1;
+    text-align: left;
+}
+
+.info-section button {
+    background-color: #ff9800;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.info-section button:hover {
+    background-color: #e57c00;
+}
+
+.info-section p {
+    margin: 20px 0;
+    line-height: 1.6;
+}
