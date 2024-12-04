@@ -1,0 +1,21 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.logo{
+    font-size: 30px;
+    img{
+        height: 30px;
+        width:30px;
+    }
+}
+.navbar{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
